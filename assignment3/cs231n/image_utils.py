@@ -64,7 +64,9 @@ def image_from_url(url):
         with open(fname, 'wb') as ff:
             ff.write(f.read())
         img = imread(fname)
-        os.remove(fname)
+        #EROOR is reported which is "[WinError 32] 另一个程序正在使用此文件，进程无法访问"
+        #I can't figure out,so I comment this line and it works.
+        #os.remove(fname)
         return img
     except urllib.error.URLError as e:
         print('URL Error: ', e.reason, url)
