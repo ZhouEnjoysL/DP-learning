@@ -1,4 +1,4 @@
 .ipynb_checkpoints
 data/
 logs/
-vgg16_pretrain
+vgg16_pretrain/
