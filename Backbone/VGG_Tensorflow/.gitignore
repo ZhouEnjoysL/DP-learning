@@ -1,5 +1,8 @@
 .ipynb_checkpoints
+<<<<<<< HEAD
 .ipynb_checkpoints
+=======
+>>>>>>> d7d080c7a8047ddebaa104f8b67690cacf56c022
 data/
 logs/
 vgg16_pretrain/
